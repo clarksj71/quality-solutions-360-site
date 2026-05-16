@@ -33,7 +33,7 @@ export default function HeroHome() {
                 unleashing their potential to deliver business value.
               </p>
 
-              <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
+              <div className="relative before:absolute before:inset-0 before:pointer-events-none before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
 
                 <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center sm:gap-4"
@@ -49,7 +49,6 @@ export default function HeroHome() {
                   >
                     <span className="relative inline-flex items-center">
                       Schedule a Conversation
-
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
@@ -84,11 +83,9 @@ export default function HeroHome() {
               <div className="mb-8 flex items-center justify-between border-b border-slate-800 pb-4">
 
                 <div className="flex items-center gap-3">
-
                   <div className="h-3 w-3 rounded-full bg-red-500" />
                   <div className="h-3 w-3 rounded-full bg-yellow-500" />
                   <div className="h-3 w-3 rounded-full bg-green-500" />
-
                 </div>
 
                 <span className="text-sm font-medium text-gray-300">
