@@ -18,8 +18,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Fractional technology leadership that improves execution,
-              operational efficiency, and engineering effectiveness.
+              Engineering efficiency is a revenue strategy.
             </h1>
 
             <div className="mx-auto max-w-3xl">
@@ -29,9 +28,9 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Partnering with organizations to reduce operational friction,
-                strengthen security and quality practices, and align teams
-                around measurable outcomes.
+                Most organizations have security, quality, and operations trapped in silos. We
+                operate across all of them — eliminating the blind spots holding teams back and
+                unleashing their potential to deliver business value.
               </p>
 
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
