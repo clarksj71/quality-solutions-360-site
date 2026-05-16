@@ -1,17 +1,20 @@
 import Image from "next/image";
+
 import PlanetImg from "@/public/images/planet.png";
 import PlanetOverlayImg from "@/public/images/planet-overlay.svg";
 
 export default function FeaturesPlanet() {
   return (
     <section
-  id="services"
-  className="relative before:absolute before:inset-0 before:-z-20 before:bg-gray-900">
+      id="services"
+      className="relative overflow-hidden before:absolute before:inset-0 before:-z-20 before:bg-gray-900"
+    >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
+
             <h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
               Helping organizations improve execution, operational clarity,
               and engineering effectiveness
@@ -22,10 +25,12 @@ export default function FeaturesPlanet() {
               improve delivery visibility, strengthen resilience practices,
               and align engineering teams around measurable outcomes.
             </p>
+
           </div>
 
           {/* Planet */}
           <div className="pb-16 md:pb-20" data-aos="zoom-y-out">
+
             <div className="text-center">
 
               <div className="relative inline-flex rounded-full before:absolute before:inset-0 before:-z-10 before:scale-[.85] before:animate-[pulse_4s_cubic-bezier(.4,0,.6,1)_infinite] before:bg-linear-to-b before:from-blue-900 before:to-sky-700/50 before:blur-3xl after:absolute after:inset-0 after:rounded-[inherit] after:[background:radial-gradient(closest-side,var(--color-blue-500),transparent)]">
@@ -41,7 +46,7 @@ export default function FeaturesPlanet() {
                 <div className="pointer-events-none" aria-hidden="true">
 
                   <Image
-                    className="absolute -right-64 -top-20 z-10 max-w-none"
+                    className="absolute -right-20 top-0 z-10 max-w-none opacity-70 md:-right-64 md:-top-20 md:opacity-100"
                     src={PlanetOverlayImg}
                     width={789}
                     height={755}
@@ -51,47 +56,66 @@ export default function FeaturesPlanet() {
                   {/* Floating Cards */}
                   <div>
 
-                    <div className="absolute -left-28 top-16 z-10 w-64 min-h-[72px] animate-[float_4s_ease-in-out_infinite_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-4 py-3 shadow-2xl backdrop-blur-sm">
-                      <div className="text-sm font-semibold text-white">
+                    {/* Card 1 */}
+                    <div className="absolute left-2 top-6 z-10 w-40 animate-[float_4s_ease-in-out_infinite_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-3 py-2 shadow-2xl backdrop-blur-sm md:-left-28 md:top-16 md:w-64 md:px-4 md:py-3">
+
+                      <div className="text-xs font-semibold text-white md:text-sm">
                         Operational Efficiency
                       </div>
-                      <div className="text-xs text-gray-400">
+
+                      <div className="text-[10px] text-gray-400 md:text-xs">
                         Optimize. Align. Execute.
                       </div>
+
                     </div>
 
-                    <div className="absolute left-56 top-7 z-10 w-64 min-h-[72px] animate-[float_4s_ease-in-out_infinite_1s_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-4 py-3 shadow-2xl backdrop-blur-sm">
-                      <div className="text-sm font-semibold text-white">
+                    {/* Card 2 */}
+                    <div className="absolute right-2 top-2 z-10 w-40 animate-[float_4s_ease-in-out_infinite_1s_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-3 py-2 shadow-2xl backdrop-blur-sm md:left-56 md:top-7 md:w-64 md:px-4 md:py-3">
+
+                      <div className="text-xs font-semibold text-white md:text-sm">
                         Security & Resilience
                       </div>
-                      <div className="text-xs text-gray-400">
+
+                      <div className="text-[10px] text-gray-400 md:text-xs">
                         Reduce risk. Improve resilience.
                       </div>
+
                     </div>
 
-                    <div className="absolute -left-20 bottom-24 z-10 w-64 min-h-[72px] animate-[float_4s_ease-in-out_infinite_2s_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-4 py-3 shadow-2xl backdrop-blur-sm">
-                      <div className="text-sm font-semibold text-white">
+                    {/* Card 3 */}
+                    <div className="absolute left-4 bottom-12 z-10 w-40 animate-[float_4s_ease-in-out_infinite_2s_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-3 py-2 shadow-2xl backdrop-blur-sm md:-left-20 md:bottom-24 md:w-64 md:px-4 md:py-3">
+
+                      <div className="text-xs font-semibold text-white md:text-sm">
                         Observability & Insight
                       </div>
-                      <div className="text-xs text-gray-400">
+
+                      <div className="text-[10px] text-gray-400 md:text-xs">
                         Improve visibility. Drive decisions.
                       </div>
+
                     </div>
 
-                    <div className="absolute bottom-32 left-64 z-10 w-64 min-h-[72px] animate-[float_4s_ease-in-out_infinite_3s_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-4 py-3 shadow-2xl backdrop-blur-sm">
-                      <div className="text-sm font-semibold text-white">
+                    {/* Card 4 */}
+                    <div className="absolute right-2 bottom-16 z-10 w-40 animate-[float_4s_ease-in-out_infinite_3s_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-3 py-2 shadow-2xl backdrop-blur-sm md:bottom-32 md:left-64 md:w-64 md:px-4 md:py-3">
+
+                      <div className="text-xs font-semibold text-white md:text-sm">
                         Engineering Effectiveness
                       </div>
-                      <div className="text-xs text-gray-400">
+
+                      <div className="text-[10px] text-gray-400 md:text-xs">
                         Align teams. Deliver outcomes.
                       </div>
+
                     </div>
 
                   </div>
 
                 </div>
+
               </div>
+
             </div>
+
           </div>
 
           {/* Grid */}
@@ -164,6 +188,7 @@ export default function FeaturesPlanet() {
             </article>
 
           </div>
+
         </div>
       </div>
     </section>
