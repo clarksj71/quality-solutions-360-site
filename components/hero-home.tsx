@@ -60,7 +60,7 @@ export default function HeroHome() {
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:w-auto"
                     href="#services"
                   >
-                    How I Help
+                    How We Help
                   </a>
 
                 </div>
