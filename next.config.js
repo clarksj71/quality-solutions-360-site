@@ -2,6 +2,8 @@
 const nextConfig = {
   output: "export",
 
+  basePath: "/quality-solutions-360-site",
+
   images: {
     unoptimized: true,
   },
