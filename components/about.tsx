@@ -51,10 +51,11 @@ export default function About() {
             </p>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
-              His approach combines strategic leadership with practical execution —
-              helping organizations reduce operational friction, improve engineering
-              effectiveness, strengthen resilience, and align technology initiatives
-              with measurable business outcomes.
+              His approach is built on a simple truth — executives and technology leaders rarely
+              get close enough to the work to see where waste, risk, and inefficiency actually
+              live. Stephen partners directly with leaders to surface those blind spots,
+              translating deep technical insight into organizational clarity, faster delivery,
+              and measurable cost savings.
             </p>
 
             {/* Focus Areas */}
