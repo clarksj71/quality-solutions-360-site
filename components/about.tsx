@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProfileImage from "@/public/profile.jpg";
 
 export default function About() {
   return (
@@ -13,7 +14,7 @@ export default function About() {
             <div className="relative overflow-hidden rounded-3xl border border-gray-200 shadow-2xl">
 
               <Image
-                src="/profile.jpg"
+                src={ProfileImage}
                 width={500}
                 height={600}
                 alt="Stephen Clark"
