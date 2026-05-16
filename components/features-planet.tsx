@@ -96,7 +96,7 @@ export default function FeaturesPlanet() {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="absolute right-2 bottom-16 z-10 w-40 animate-[float_4s_ease-in-out_infinite_3s_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-3 py-2 shadow-2xl backdrop-blur-sm md:bottom-32 md:left-64 md:w-64 md:px-4 md:py-3">
+                    <div className="absolute right-2 bottom-16 z-10 w-40 animate-[float_4s_ease-in-out_infinite_3s_both] rounded-xl border border-blue-500/20 bg-gray-900/90 px-2 py-2 shadow-2xl backdrop-blur-sm md:bottom-32 md:left-64 md:w-64 md:px-3 md:py-3">
 
                       <div className="text-xs font-semibold text-white md:text-sm">
                         Engineering Effectiveness
