@@ -1,5 +1,7 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+
+import LogoImage from "@/public/images/QS360_clean.png";
 
 export default function Logo() {
   return (
@@ -9,11 +11,12 @@ export default function Logo() {
       aria-label="Quality Solutions 360"
     >
       <Image
-        src="/QS360_clean.png"
+        src={LogoImage}
         width={36}
         height={36}
         alt="Quality Solutions 360"
         className="h-9 w-9"
+        priority
       />
 
       <div className="text-base font-semibold tracking-tight text-gray-900 md:text-lg">
