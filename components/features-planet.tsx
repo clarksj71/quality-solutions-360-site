@@ -21,9 +21,9 @@ export default function FeaturesPlanet() {
             </h2>
 
             <p className="mt-4 text-lg text-gray-400">
-              Partnering with organizations to reduce operational friction,
-              improve delivery visibility, strengthen resilience practices,
-              and align engineering teams around measurable outcomes.
+              Most organizations have security, quality, and operations trapped
+              in silos. We operate across all of them — eliminating the blind spots
+              holding teams back and unleashing their potential to deliver business value.
             </p>
 
           </div>

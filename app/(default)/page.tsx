@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Home - Quality Solutions 360",
   description:
-    "Fractional technology leadership focused on operational clarity, engineering effectiveness, resilience, and measurable execution outcomes.",
+    "Engineering efficiency is a revenue strategy.",
 };
 
 import Hero from "@/components/hero-home";
