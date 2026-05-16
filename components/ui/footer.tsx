@@ -20,12 +20,11 @@ export default function Footer({ border = false }: { border?: boolean }) {
             <Logo />
 
             <p className="mt-3 max-w-md text-sm text-gray-600">
-              Fractional technology leadership focused on operational clarity,
-              engineering effectiveness, resilience, and measurable execution outcomes.
+              Engineering efficiency is the revenue strategy.
             </p>
 
             <p className="mt-4 text-sm text-gray-500">
-              © 2026 Quality Solutions 360. All rights reserved.
+              © 2026 Quality Solutions 360 LLC. All rights reserved.
             </p>
 
           </div>
