@@ -18,7 +18,7 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Engineering efficiency is the revenue strategy.
+              Engineering efficiency IS the revenue strategy.
             </h1>
 
             <div className="mx-auto max-w-3xl">
