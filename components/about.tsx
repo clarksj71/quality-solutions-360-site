@@ -74,19 +74,18 @@ export default function About() {
             </p>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
-              Having held leadership roles at organizations including Cigna,
-              Express Scripts, Evernorth, and TurningPoint Healthcare Solutions,
-              Stephen has led large-scale initiatives spanning DevOps,
-              observability, application security, quality engineering,
-              CI/CD enablement, and enterprise delivery transformation.
+              Having held leadership roles at organizations including Cigna, Express Scripts,
+              Evernorth, and TurningPoint Healthcare Solutions, he has led large-scale initiatives
+              spanning DevOps, observability, application security, quality engineering, CI/CD
+              enablement, and enterprise delivery transformation.
             </p>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
               His approach is built on a simple truth — executives and technology leaders rarely
               get close enough to the work to see where waste, risk, and inefficiency actually
-              live. He partners directly with leaders to surface those blind spots, translating
-              deep technical insight into organizational clarity, faster delivery, and measurable
-              cost savings.
+              live. Stephen partners directly with leaders to surface those blind spots,
+              translating deep technical insight into organizational clarity, faster delivery,
+              and measurable cost savings.
             </p>
 
             {/* Focus Areas */}
