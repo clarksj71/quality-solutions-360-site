@@ -17,14 +17,9 @@ export default function Header() {
             <Link
               href="https://www.linkedin.com/company/quality-solutions-360/"
               target="_blank"
-              className="transition hover:opacity-70"
+              className="whitespace-nowrap rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 transition hover:border-blue-600 hover:text-blue-600"
             >
-              <img
-                src="/images/logo-linkedin.svg"
-                alt="LinkedIn"
-                width={20}
-                height={20}
-              />
+              Connect on LinkedIn
             </Link>
 
           <Link
