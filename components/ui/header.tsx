@@ -19,7 +19,7 @@ export default function Header() {
               target="_blank"
               className="flex items-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700 transition hover:border-blue-600 hover:text-blue-600"
             >
-              <img src="/images/logo-linkedin.svg" alt="LinkedIn" width={18} height={18} />
+              <img src="/images/logo-linkedin.svg" alt="LinkedIn" width={26} height={26} />
               <span className="hidden md:inline">Connect on LinkedIn</span>
             </Link>
 
