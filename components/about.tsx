@@ -66,10 +66,11 @@ export default function About() {
             <div className="mt-4 h-px w-16 bg-blue-600" />
 
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
-              Stephen Clark is a fractional technology executive and engineering advisor
-              with more than two decades of experience leading enterprise transformation,
-              engineering enablement, quality, security, and operational modernization
-              initiatives across healthcare, SaaS, and enterprise technology organizations.
+              A fractional technology executive and engineering advisor with more than two
+              decades of experience leading enterprise transformation,engineering enablement,
+              quality, security, and operational modernization initiatives across healthcare,
+              beverage distribution, regulated utilities, SaaS, and enterprise technology
+              organizations.
             </p>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
@@ -83,9 +84,9 @@ export default function About() {
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
               His approach is built on a simple truth — executives and technology leaders rarely
               get close enough to the work to see where waste, risk, and inefficiency actually
-              live. Stephen partners directly with leaders to surface those blind spots,
-              translating deep technical insight into organizational clarity, faster delivery,
-              and measurable cost savings.
+              live. He partners directly with leaders to surface those blind spots, translating
+              deep technical insight into organizational clarity, faster delivery, and measurable
+              cost savings.
             </p>
 
             {/* Focus Areas */}
