@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Home - Quality Solutions 360",
   description:
-    "Engineering efficiency is a revenue strategy.",
+    "Engineering efficiency IS the revenue strategy.",
 };
 
 import Hero from "@/components/hero-home";
