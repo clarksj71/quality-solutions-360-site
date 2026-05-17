@@ -12,7 +12,7 @@ export default function Header() {
         </div>
 
         {/* Navigation */}
-        <nav className="flex items-center gap-6">
+        <nav className="flex items-center gap-3">
 
           <Link
             href="https://www.linkedin.com/company/quality-solutions-360/"
