@@ -128,7 +128,7 @@ export default function FeaturesPlanet() {
 
               <p className="text-[15px] text-gray-400">
                 Improve engineering execution by identifying operational bottlenecks,
-                reducing friction, and aligning teams around measurable outcomes.
+                reducing friction, and aligning teams around measurable business outcomes.
               </p>
             </article>
 
@@ -139,7 +139,7 @@ export default function FeaturesPlanet() {
 
               <p className="text-[15px] text-gray-400">
                 Strengthen security posture and improve organizational resilience
-                through practical, risk-aware technology leadership.
+                through tooling, and practical risk-aware technology leadership.
               </p>
             </article>
 
