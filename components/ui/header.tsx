@@ -20,7 +20,7 @@ export default function Header() {
               className="transition hover:opacity-70"
             >
               <img
-                src="public/images/logo-linkedin.svg"
+                src="/images/logo-linkedin.svg"
                 alt="LinkedIn"
                 width={20}
                 height={20}
