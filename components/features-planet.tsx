@@ -23,7 +23,7 @@ export default function FeaturesPlanet() {
             <p className="mt-4 text-lg text-gray-400">
               Partnering with organizations to reduce operational friction,
               improve delivery visibility, strengthen resilience practices,
-              and align engineering teams around measurable outcomes.
+              and align engineering teams around measurable business outcomes.
             </p>
 
           </div>
