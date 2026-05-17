@@ -48,7 +48,7 @@ export default function HeroHome() {
                     rel="noopener noreferrer"
                   >
                     <span className="relative inline-flex items-center">
-                      Schedule a Conversation
+                      Let's Talk
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
