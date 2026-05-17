@@ -93,7 +93,7 @@ export default function HeroHome() {
                 </span>
 
                 <div className="text-xs uppercase tracking-widest text-blue-400">
-                  Operational Signals
+                  The Signals
                 </div>
 
               </div>
@@ -102,27 +102,27 @@ export default function HeroHome() {
               <div className="space-y-3 font-mono text-sm">
 
                 <div className="animate-[code-1_10s_infinite] rounded-xl border border-blue-500/20 bg-blue-500/10 px-4 py-3 text-blue-300 shadow-[0_0_20px_rgba(59,130,246,0.15)] backdrop-blur-sm">
-                  &gt; Aligning engineering priorities...
+                  &gt; Aligning engineering to business priorities...
                 </div>
 
                 <div className="animate-[code-2_10s_infinite] rounded-xl border border-slate-700 bg-gray-800/70 px-4 py-3 text-gray-300 transition-all duration-500">
-                  &gt; Improving operational visibility...
+                  &gt; Embedding security and quality from the start...
                 </div>
 
                 <div className="animate-[code-3_10s_infinite] rounded-xl border border-slate-700 bg-gray-800/70 px-4 py-3 text-gray-300 transition-all duration-500">
-                  &gt; Reducing delivery friction...
+                  &gt; Unifying teams around a shared delivery model....
                 </div>
 
                 <div className="animate-[code-4_10s_infinite] rounded-xl border border-slate-700 bg-gray-800/70 px-4 py-3 text-gray-300 transition-all duration-500">
-                  &gt; Strengthening security and quality practices...
+                  &gt; Centralizing signals into a single operational view...
                 </div>
 
                 <div className="animate-[code-5_10s_infinite] rounded-xl border border-slate-700 bg-gray-800/70 px-4 py-3 text-gray-300 transition-all duration-500">
-                  &gt; Enhancing organizational resilience...
+                  &gt; Designing systems that detect and recover automatically......
                 </div>
 
                 <div className="animate-[code-6_10s_infinite] rounded-xl border border-emerald-500/20 bg-emerald-500/10 px-4 py-3 text-emerald-300 shadow-[0_0_20px_rgba(16,185,129,0.15)] backdrop-blur-sm">
-                  &gt; Operational clarity achieved.
+                  &gt; This is what effective looks like.
                 </div>
 
               </div>
