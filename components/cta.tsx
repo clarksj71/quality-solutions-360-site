@@ -28,7 +28,7 @@ export default function Cta() {
               className="group rounded-xl bg-blue-600 px-6 py-3 text-sm font-medium text-white transition hover:bg-blue-500"
             >
               <span className="inline-flex items-center">
-                Let's Talk
+                Let's Chat
 
                 <span className="ml-2 transition-transform group-hover:translate-x-1">
                   →

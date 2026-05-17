@@ -52,7 +52,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
               target="_blank"
               className="whitespace-nowrap rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-gray-800"
             >
-              Schedule a Conversation
+              Let's Chat
             </Link>
 
           </div>
