@@ -14,13 +14,18 @@ export default function Header() {
         {/* Navigation */}
         <nav className="flex items-center gap-6">
 
-          <Link
-            href="https://www.linkedin.com/company/quality-solutions-360/"
-            target="_blank"
-            className="text-sm font-medium text-gray-600 transition hover:text-blue-600"
-          >
-            LinkedIn
-          </Link>
+            <Link
+              href="https://www.linkedin.com/company/quality-solutions-360/"
+              target="_blank"
+              className="transition hover:opacity-70"
+            >
+              <img
+                src="public/images/logo-linkedin.svg"
+                alt="LinkedIn"
+                width={20}
+                height={20}
+              />
+            </Link>
 
           <Link
             href="https://calendly.com/clarksj71"
