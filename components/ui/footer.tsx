@@ -20,7 +20,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
             <Logo />
 
             <p className="mt-3 max-w-md text-sm text-gray-600">
-              Engineering efficiency is the revenue strategy.
+              Engineering efficiency IS the revenue strategy.
             </p>
 
             <p className="mt-4 text-sm text-gray-500">
