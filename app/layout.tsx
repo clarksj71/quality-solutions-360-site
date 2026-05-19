@@ -27,8 +27,8 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
         </div>
-      </body>
       <GoogleAnalytics gaId="G-FBMWW2CBCR" />
+      </body>
     </html>
   );
 }
