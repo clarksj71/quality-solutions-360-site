@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "./logo";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
@@ -34,14 +35,16 @@ export default function Footer({ border = false }: { border?: boolean }) {
 
             <Link
               href="#services"
+              onClick={() => sendGAEvent('event', 'how_we_help_click', { location: 'footer' })}
               className="text-sm text-gray-600 transition hover:text-gray-900"
             >
               Services
             </Link>
 
             <Link
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/company/quality-solutions-360/"
               target="_blank"
+              onClick={() => sendGAEvent('event', 'linkedin_company_click', { location: 'footer' })}
               className="text-sm text-gray-600 transition hover:text-gray-900"
             >
               LinkedIn
@@ -50,6 +53,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
             <Link
               href="https://calendly.com/clarksj71"
               target="_blank"
+              onClick={() => sendGAEvent('event', 'lets_chat_click', { location: 'footer' })}
               className="whitespace-nowrap rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-gray-800"
             >
               Let's Chat

@@ -1,4 +1,7 @@
+"use client";
+
 import PageIllustration from "@/components/page-illustration";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export default function HeroHome() {
   return (
@@ -41,11 +44,11 @@ export default function HeroHome() {
                   data-aos-delay={450}
                 >
 
-                  <a
+                  <a href="https://calendly.com/clarksj71"
                     className="btn group mb-4 w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="https://calendly.com/clarksj71"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => sendGAEvent('event', 'lets_chat_click', { location: 'hero' })}
                   >
                     <span className="relative inline-flex items-center">
                       Let's Chat
@@ -55,9 +58,9 @@ export default function HeroHome() {
                     </span>
                   </a>
 
-                  <a
+                  <a href="#services"
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:w-auto"
-                    href="#services"
+                    onClick={() => sendGAEvent('event', 'how_we_help_click', { location: 'hero' })}
                   >
                     How We Help
                   </a>

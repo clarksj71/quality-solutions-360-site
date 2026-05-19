@@ -1,11 +1,13 @@
+'use client';
+
 import Image from "next/image";
 import ProfileImage from "@/public/images/profile.jpg";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export default function About() {
   return (
     <section className="bg-gradient-to-b from-white to-gray-50 py-24">
       <div className="mx-auto max-w-6xl px-6">
-
         <div className="grid items-center gap-12 md:grid-cols-2">
 
           {/* Photo */}
@@ -23,12 +25,10 @@ export default function About() {
 
           {/* Content */}
           <div>
-
             <div className="mb-4 text-sm font-semibold uppercase tracking-widest text-blue-600">
               Leadership
             </div>
 
-            {/* Name + Title block */}
             <h2 className="text-4xl font-bold text-gray-900 md:text-5xl">
               Stephen Clark
             </h2>
@@ -50,10 +50,10 @@ export default function About() {
               <span className="text-gray-300">|</span>
               <span>Healthcare · Fintech · SaaS</span>
               <span className="text-gray-300">|</span>
-              <a
-                href="https://www.linkedin.com/in/qualityevangelist"
+              <a href="https://www.linkedin.com/in/qualityevangelist"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => sendGAEvent('event', 'linkedin_personal_click', { location: 'about' })}
                 className="flex items-center gap-1 text-blue-600 hover:text-blue-700 transition-colors"
               >
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -67,7 +67,7 @@ export default function About() {
 
             <p className="mt-6 text-lg leading-relaxed text-gray-600">
               A fractional technology executive and engineering advisor with more than two
-              decades of experience leading enterprise transformation,engineering enablement,
+              decades of experience leading enterprise transformation, engineering enablement,
               quality, security, and operational modernization initiatives across healthcare,
               beverage distribution, regulated utilities, SaaS, and enterprise technology
               organizations.
@@ -90,47 +90,25 @@ export default function About() {
 
             {/* Focus Areas */}
             <div className="mt-10 grid gap-4 sm:grid-cols-2">
-
               <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                <div className="text-sm font-semibold text-gray-900">
-                  Engineering Effectiveness
-                </div>
-                <div className="mt-1 text-sm text-gray-600">
-                  Aligning teams, tooling, and delivery execution.
-                </div>
+                <div className="text-sm font-semibold text-gray-900">Engineering Effectiveness</div>
+                <div className="mt-1 text-sm text-gray-600">Aligning teams, tooling, and delivery execution.</div>
               </div>
-
               <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                <div className="text-sm font-semibold text-gray-900">
-                  Security &amp; Quality
-                </div>
-                <div className="mt-1 text-sm text-gray-600">
-                  Embedding resilience, security, and quality into delivery.
-                </div>
+                <div className="text-sm font-semibold text-gray-900">Security &amp; Quality</div>
+                <div className="mt-1 text-sm text-gray-600">Embedding resilience, security, and quality into delivery.</div>
               </div>
-
               <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                <div className="text-sm font-semibold text-gray-900">
-                  Observability &amp; Operations
-                </div>
-                <div className="mt-1 text-sm text-gray-600">
-                  Improving visibility, incident response, and operational clarity.
-                </div>
+                <div className="text-sm font-semibold text-gray-900">Observability &amp; Operations</div>
+                <div className="mt-1 text-sm text-gray-600">Improving visibility, incident response, and operational clarity.</div>
               </div>
-
               <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                <div className="text-sm font-semibold text-gray-900">
-                  Enterprise Transformation
-                </div>
-                <div className="mt-1 text-sm text-gray-600">
-                  Leading modernization and operational improvement initiatives at scale.
-                </div>
+                <div className="text-sm font-semibold text-gray-900">Enterprise Transformation</div>
+                <div className="mt-1 text-sm text-gray-600">Leading modernization and operational improvement initiatives at scale.</div>
               </div>
-
             </div>
 
           </div>
-
         </div>
       </div>
     </section>

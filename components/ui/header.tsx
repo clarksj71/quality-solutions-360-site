@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "./logo";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export default function Header() {
   return (
@@ -17,6 +18,7 @@ export default function Header() {
           <Link
             href="https://www.linkedin.com/company/quality-solutions-360/"
             target="_blank"
+            onClick={() => sendGAEvent('event', 'linkedin_company_click', {})}
             className="flex items-center gap-2 rounded-lg border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700 transition hover:border-blue-600 hover:text-blue-600"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#0A66C2" style={{flexShrink: 0}}>
@@ -28,6 +30,7 @@ export default function Header() {
           <Link
             href="https://calendly.com/clarksj71"
             target="_blank"
+            onClick={() => sendGAEvent('event', 'contact_us_click', {})}
             className="whitespace-nowrap rounded-lg bg-gray-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-gray-800"
           >
             Contact Us

@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { sendGAEvent } from "@next/third-parties/google";
 
 export default function Cta() {
   return (
@@ -25,11 +28,11 @@ export default function Cta() {
             <Link
               href="https://calendly.com/clarksj71"
               target="_blank"
+              onClick={() => sendGAEvent('event', 'lets_chat_click', { location: 'cta' })}
               className="group rounded-xl bg-blue-600 px-6 py-3 text-sm font-medium text-white transition hover:bg-blue-500"
             >
               <span className="inline-flex items-center">
                 Let's Chat
-
                 <span className="ml-2 transition-transform group-hover:translate-x-1">
                   →
                 </span>
