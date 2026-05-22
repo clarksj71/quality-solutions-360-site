@@ -17,7 +17,7 @@ export default function Logo() {
         alt="Quality Solutions 360"
         className="h-9 w-9"
         priority
-        placeholder="empty"
+        placeholder=""
       />
 
       <div className="text-base font-semibold tracking-tight text-gray-900 md:text-lg">
