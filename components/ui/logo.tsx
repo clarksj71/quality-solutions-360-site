@@ -21,7 +21,7 @@ export default function Logo() {
       />
 
       <div className="text-base font-semibold tracking-tight text-gray-900 md:text-lg">
-        Quality Solutions <span className="text-blue-900">360</span>
+        Quality Solutions <span className="text-blue-500">360</span>
       </div>
     </Link>
   );
